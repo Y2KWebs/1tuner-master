@@ -1,0 +1,103 @@
+main.playlist {
+  padding: 0rem 1.5rem 10rem 1.5rem;
+  background-color: var(--background-color);
+  position: relative;
+}
+main.playlist h1 {
+  margin-bottom:3rem;
+}
+.playlists, .playlists__item {
+  list-style: none;
+  margin: 0;
+  padding:0;
+}
+.playlists {
+  border-top: 1px solid var(--playlist-header-bg-color);
+  width: 30rem;
+  max-width: 80vw;
+  margin: 1rem auto 0 auto;
+  display: block;
+}
+.playlists__item {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background: var(--playlist-item-bg-color);
+  border-bottom: 1px solid var(--playlist-header-bg-color);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.playlists__item time {
+  display: block;
+  text-align: center;
+  background: var(--playlist-item-bg-color);
+  font-size:.8rem;
+  padding: .2rem;
+  font-weight: bold;
+  flex:0 1 0;
+  width:100%;
+}
+.playlists__item a {
+  display: flex;
+  margin:.6rem;
+  flex: 1 1 0;
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.is-active {
+  border: .2rem solid var(--playlist-item-active-border-color);
+  border-radius: .2rem;
+}
+.is-active.playlists__item,
+.is-active.playlists__item time {
+  background: var(--playlist-item-active-bg-color);
+}
+.is-active.playlists__item time {
+  position: relative;
+}
+button.btn--on-air {
+  display: none;
+}
+.is-active button.btn--on-air {
+  position: absolute;
+  right: .3rem;
+  top: .3rem;
+  font-size: .5rem;
+  line-height: 1.2;
+  display: inline-block;
+  padding: .25rem .4rem;
+  display: block;
+}
+.hours, .hours--1 {
+  height: 5rem;
+}
+.hours--2 {
+  height: 6rem;
+}
+.hours--3 {
+  height: 7rem;
+}
+.hours--4 {
+  height: 8rem;
+}
+.hours--5 {
+  height: 9rem;
+}
+.hours--6 {
+  height: 10rem;
+}
+.playlists__item--break {
+  background-color:var(--playlist-item-active-bg-color);
+  border-top: 1px dashed var(--playlist-header-bg-color);
+}
+img.station-logo {
+  width: 100%;
+  max-width: 3rem;
+  max-height: 100%;
+  vertical-align: middle;
+}
+  

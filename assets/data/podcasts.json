@@ -1,0 +1,24 @@
+{"podcasts" : [
+  {
+    "feedUrl": "https://www.panoramadigital.co.cr/feed/podcast/panorama",
+    "name": "Panorama",
+    "artworkUrl": "https://www.panoramadigital.co.cr/wp-content/uploads/2020/08/donor_1-2.png",
+    "artworkUrl600": "https://www.panoramadigital.co.cr/wp-content/uploads/2020/08/donor_1-2.png",
+    "description": "Cada mañana, a las 7 en punto, más de 60 emisoras de radio se unen para transmitir PANORAMA, el programa de la Cámara Nacional de Radiodifusión. Una cadena que se forma para contribuir a la cultura, la democracia y a la libertad de expresión, siendo a la vez tribuna de libre intercambio de ideas para todos los costarricenses."
+  },
+  {
+    "feedUrl": "https://www.panoramadigital.co.cr/feed/podcast/capsulas",
+    "name": "Cápsulas",
+    "artworkUrl": "https://www.panoramadigital.co.cr/wp-content/uploads/2020/08/donor_1-2.png",
+    "artworkUrl600": "https://www.panoramadigital.co.cr/wp-content/uploads/2020/08/donor_1-2.png",
+    "description": "NPR's Up First is the news you need to start your day. The three biggest stories of the day, with reporting and analysis from NPR News — in 10 minutes. Available weekdays by 6 a.m. ET, with hosts Rachel Martin, Noel King, David Greene and Steve Inskeep. Now available on Saturdays by 8 a.m. ET, with hosts Lulu Garcia-Navarro and Scott Simon. Subscribe and listen, then support your local NPR station at donate.npr.org."
+  },
+  {
+    "feedUrl": "https://www.panoramadigital.co.cr/feed/podcast/comentarios",
+    "name": "Comentarios",
+    "artworkUrl": "https://www.panoramadigital.co.cr/wp-content/uploads/2020/08/donor_1-2.png",
+    "artworkUrl600": "https://www.panoramadigital.co.cr/wp-content/uploads/2020/08/donor_1-2.png",
+    "description": "In 1965, Rev. James Reeb was murdered in Selma, Alabama. Three men were tried and acquitted, but no one was ever held to account. Fifty years later, two journalists from Alabama return to the city where it happened, expose the lies that kept the murder from being solved and uncover a story about guilt and memory that says as much about America today as it does about the past."
+  }
+]
+}
